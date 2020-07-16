@@ -9,9 +9,9 @@
 
 <body>
 
-    <div style="color:blue">
+    <div style="color:White">
         <form action="{{ url_for('predict')}}" method="post">
-            <h2>Predictive analysis</h2>
+            <h2>Car's Selling Price prediction</h2>
             <h3>Year</h3>
             <input id="first" name="Year" type="number ">
             <h3>What is the Showroom Price?(In lakhs)</h3><br><input id="second" name="Present_Price" required="required">
@@ -30,7 +30,7 @@
                 <option value="Mannual">Manual Car</option>
                 <option value="Automatic">Automatic Car</option>
             </select>
-            <br><br><button id="sub" type="submit ">Calculate the Selling Price</button>
+            <br><br><button id="sub" type="submit ">Calculate </button>
             <br>
 
 
@@ -48,8 +48,9 @@
 
     <style>
         body {
-            background-color: lightslategray;
+            background-color:#25274D;
             text-align: center;
+			text-color: white;
             padding: 0px;
         }
         
@@ -155,5 +156,8 @@
         }
     </style>
 </body>
+<footer>
+<p style="text-align:right;color:White">@Madhav Sai Harshith</p>
+</footer>
 
 </html>
